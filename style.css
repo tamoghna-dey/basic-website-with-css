@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #d4d6de;
+  display: flex;
+}
+
+#left {
+  width: 50%;
+  height: 100%;
+  /* background-color: yellow; */
+}
+
+#left-top {
+  width: 100%;
+  height: 24vh;
+  /* background-color: pink; */
+  display: flex;
+}
+
+#tleft {
+  height: 100%;
+  width: 50%;
+  /* background-color: black; */
+  padding-top: 5vh;
+  padding-left: 5vh;
+}
+#tleft i {
+  color: black;
+  font-size: 1.9vw;
+}
+#tright {
+  height: 100%;
+  width: 50%;
+  /* background-color: white; */
+
+  line-height: 1.1;
+  padding-right: 2vw;
+}
+#Rup {
+  width: 100%;
+  height: 50%;
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+#Rup h3 {
+  font-size: 2.2vh;
+  font-weight: 500;
+}
+#Rdown {
+  width: 100%;
+  height: 50%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+#Rdown h3 {
+  font-size: 2.2vh;
+  font-weight: 500;
+}
+#left-middle {
+  padding-top: 1vh;
+  padding-left: 5vh;
+  width: 100%;
+  height: 50vh;
+  /* background-color: orange; */
+  line-height: 0.8;
+  font-weight: 390;
+}
+
+#left-middle #maintext1 {
+  font-size: 15vh;
+}
+#left-middle #maintext2 {
+  font-size: 15vh;
+  padding-left: 6vw;
+}
+#left-middle #maintext3 {
+  font-size: 15vh;
+}
+#left-middle #maintext4 {
+  font-size: 15vh;
+  padding-left: 17vw;
+}
+#left-bottom {
+  width: 100%;
+  height: 26vh;
+  /* background-color: green; */
+  padding-left: 3.2vw;
+  display: flex;
+  align-items: center;
+}
+#left-bottom p {
+  font-size: 2.2vh;
+  margin-right: 14vw;
+  line-height: 1.2;
+  font-weight: 500;
+}
+#right {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+}
+
+#right #Rright {
+  height: 100%;
+  width: 20%;
+  /* background-color: white; */
+  padding-top: 5vh;
+  padding-left: 6vw;
+  padding-right: 5vw;
+}
+#Rright i {
+  font-size: 1.9vw;
+}
+#right #Rleft {
+  height: 100%;
+  width: 80%;
+}
+#Rleft {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#video-container {
+  height: 90%;
+  width: 90%;
+  /* background-color: pink; */
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d34230;
+  border-radius: 50%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrow i {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
